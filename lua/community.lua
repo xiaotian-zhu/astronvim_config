@@ -9,6 +9,12 @@ return {
   "AstroNvim/astrocommunity",
   -- language support
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.cmake" },
+  { import = "astrocommunity.pack.markdown" },
   -- color theme
   { import = "astrocommunity.colorscheme.catppuccin" },
+  -- git
+  { import = "astrocommunity.git.git-blame-nvim" },
 }
