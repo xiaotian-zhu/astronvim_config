@@ -11,11 +11,10 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.cpp" },
-  { import = "astrocommunity.pack.cmake" },
+  -- { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.proto" },
-  { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.java" },
   {
     "mfussenegger/nvim-jdtls",
@@ -25,8 +24,8 @@ return {
           configuration = {
             runtimes = {
               {
-                name = "JavaSE-11",
-                path = "/home/fedora/.sdkman/candidates/java/11.0.25-tem/",
+                name = "JavaSE-17",
+                path = "~/.sdkman/candidates/java/17.0.13-tem/",
               },
             },
           },
