@@ -7,6 +7,8 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  -- vscode support
+  { import = "astrocommunity.recipes.vscode" },
   -- language support
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.python" },
